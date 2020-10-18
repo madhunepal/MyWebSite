@@ -93,13 +93,22 @@ padding: 0 !important;
     padding-top: 100px;
     margin-bottom: -130px;
 }
-
+.aboutme{
+    background: #9cc1eb;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-emphasis-color: black;
+    
+}
 .profile-img{
     height: 200px;
 }
 
 /*----- Resume------*/
 .resume{
+    background-color: rgb(224, 238, 186);
     margin-top: -50px;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -108,6 +117,7 @@ padding: 0 !important;
 
 /*---Blog posts----*/
 .services{
+    background-color: lightcoral;
     padding-top: 50px;
     padding-bottom: 50px;
 }
