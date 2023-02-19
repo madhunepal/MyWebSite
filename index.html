@@ -179,8 +179,9 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
                                         Working on .NET projects. Using technologies like .NET MVC, .NET Core, Entity
                                         Framework, HTML5, JS, CSS3, Bootstrap, Json, JQuery. RDBMS, MSSSMS <br>
                                         <b>Company</b> - FL DOR <br>
-                                        <b>Duration</b> -4 plus years [2018-now] <br>
+                                        <b>Duration</b> - <span id="demo"> </span><br>
                                         <b>Location</b> -Tallahassee, FL <br>
+                                    <p>Number of Years and Months from May 2018 to now:</p>
                                     </p>
                                 </li>
                                 <li>
@@ -340,6 +341,15 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
     </script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
-    </script>
+    var startDate = new Date('May 29, 2018');
+var endDate = new Date();
+var yearDiff = endDate.getFullYear() - startDate.getFullYear();
+var monthDiff = endDate.getMonth() - startDate.getMonth();
+if (monthDiff < 0) {
+    yearDiff--;
+    monthDiff += 12;
+}
+document.getElementById("demo").innerHTML = yearDiff + " Years " + monthDiff + " months";
+</script>
 
 </body>
