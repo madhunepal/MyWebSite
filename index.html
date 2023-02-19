@@ -181,7 +181,7 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
                                         <b>Company</b> - FL DOR <br>
                                         <b>Duration</b> - <span id="demo"> </span><br>
                                         <b>Location</b> -Tallahassee, FL <br>
-                                    <p>Number of Years and Months from May 2018 to now:</p>
+                                  
                                     </p>
                                 </li>
                                 <li>
@@ -342,14 +342,14 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     var startDate = new Date('May 29, 2018');
-var endDate = new Date();
-var yearDiff = endDate.getFullYear() - startDate.getFullYear();
-var monthDiff = endDate.getMonth() - startDate.getMonth();
-if (monthDiff < 0) {
+    var endDate = new Date();
+    var yearDiff = endDate.getFullYear() - startDate.getFullYear();
+    var monthDiff = endDate.getMonth() - startDate.getMonth();
+    if (monthDiff < 0) {
     yearDiff--;
     monthDiff += 12;
-}
-document.getElementById("demo").innerHTML = yearDiff + " Years " + monthDiff + " months";
+    }
+    document.getElementById("demo").innerHTML = yearDiff + " Years " + monthDiff + " months";
 </script>
 
 </body>
