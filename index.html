@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="nav-bar">
+    <!--<div class="nav-bar">
         <nav class="navbar navbar-expand-md bg-light ">
             <div class="container">
                 <a class="navbar-brand" href="#about">Madhu Nepal</a>
@@ -45,7 +45,39 @@
                 </div>
             </div>
         </nav>
+    </div>-->
+    <div class="nav-bar">
+        <nav class="navbar navbar-expand-md bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#about">Madhu Nepal</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+    
+    
     <section id="header">
         <div class="container text-center">
             <div class="user-box">
@@ -132,11 +164,7 @@
                     <div class="aboutme" id="aboutme">
                         <h3 align="center">About Me</h3>
                         <p style="color:black;">
-                            After many years of self learning and practicing, I realized the importance of receiving in-class training to become a competent full stack developer. That's why I decided to enroll in IO Ave, where I received valuable instruction in back end coding using Ruby on Rails, code management via Github, and front end development with HTML5, CSS3, and JQuery.
-
-But IO Ave provided me with much more than just coding skills. They also taught me about Agile management and teamwork, which has been extremely useful in my professional career. I am now confident in my ability to code in various languages, including Ruby on Rails, Java, Python, C#, HTML5, CSS3, JS, and JQuery, and am eager to learn new technologies.
-
-In addition to programming, I enjoy watching sports and engaging in outdoor activities like hiking and biking.
+                            After years of self-learning and practice, I recognized the significance of in-class training to become a proficient full stack developer. This realization led me to enroll in IO Ave, where I gained invaluable instruction in back end coding utilizing Ruby on Rails, code management through Github, and front end development encompassing HTML5, CSS3, and JQuery. However, IO Ave offered more than just coding skills. They also imparted knowledge about Agile management and teamwork, which have proven highly beneficial in my professional journey. Presently, I am confident in my ability to code in various languages such as Ruby on Rails, Java, Python, C#, HTML5, CSS3, JS, and JQuery, and I maintain a strong enthusiasm for acquiring new technologies. Beyond programming, I find enjoyment in watching sports and engaging in outdoor activities like hiking and biking.
                         </p>
                     </div>
                 </div>
@@ -145,8 +173,10 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
             <div class="social-icons">
                 <ul>
                     <li>
-                        <a href="https://www.linkedin.com/in/madhunepal/" target="blank"> <i class="fab fa-linkedin">
-                            </i></a>
+                        <a href="https://www.linkedin.com/in/madhunepal/" target="blank">
+                            <i class="fab fa-linkedin">
+                            </i>
+                        </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/themadhunepal" target="blank"> <i class="fab fa-twitter"> </i></a>
@@ -177,11 +207,11 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
                                     <h4>2018- Now</h4>
                                     <p>
                                         Working on .NET projects. Using technologies like .NET MVC, .NET Core, Entity
-                                        Framework, HTML5, JS, CSS3, Bootstrap, Json, JQuery. RDBMS, MSSSMS <br>
+                                        Framework, C#, EF, LINQ, HTML5, JS, CSS3, Bootstrap, Json, JQuery. RDBMS, MSSSMS <br>
                                         <b>Company</b> - FL DOR <br>
                                         <b>Duration</b> - <span id="demo"> </span><br>
                                         <b>Location</b> -Tallahassee, FL <br>
-                                  
+
                                     </p>
                                 </li>
                                 <li>
@@ -212,14 +242,14 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
 
                             <ul class="timeline" style="background-color: rgb(93, 163, 243);">
                                 <li>
-                                    <h4>2019- 2020</h4>
+                                    <h4>2019- 2023</h4>
                                     <p>
                                         Studied Information Artichecture, Usability Analysis, Network Admin and Advanced
-                                        Web Development
+                                        Web Development, Cyber security, Data Mining and Analytics
                                         <br>
                                         <b>School</b> - Florida State University<br>
-                                        <b>Course</b> Grad. Certificate in Information Architecture <br>
-                                        <b>Duration</b> -2 years [2019-2020] <br>
+                                        <b>Course</b> Masters of Science in Information Technology<br>
+                                        <b>Duration</b> -4 years [2019-2023]- Part Time <br>
                                         <b>Location</b> -Tallahassee, Florida <br>
                                     </p>
                                 </li>
@@ -258,9 +288,9 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
             <div class="blog" id="blog">
                 <div class="container">
                     <h1 class="text-center">My Blog Posts</h1>
-                    <p class="text-center">
-                        Will keep on adding in coming days
-                    </p>
+                
+                    
+                    <a class="text-center" target="_blank" href="https://madhunepal.blogspot.com/?view=flipcard" >Some of my past posts</a>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="services-box">
@@ -279,8 +309,10 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
                         <div class="col-md-4">
                             <div class="services-box">
                                 <i class="fa fa-rocket"> </i><span>Motivation</span>
-                                <p>Get motivations through different stories that I have recited. I will provide link to
-                                    them.</p>
+                                <p>
+                                    Get motivations through different stories that I have recited. I will provide link to
+                                    them.
+                                </p>
                             </div>
 
 
@@ -315,13 +347,13 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
                                 </div>
                                 <!--
 
-                              <button type="button" class="btn btn-primary"><i class="fa fa-download">
+                                <button type="button" class="btn btn-primary"><i class="fa fa-download">
 
-                                    </i>Resume </button>
-                                <button type="button" class="btn btn-primary"><i class="fa fa-rocket">
+                                      </i>Resume </button>
+                                  <button type="button" class="btn btn-primary"><i class="fa fa-rocket">
 
-                                    </i>Hire Me </button>
-                                 -->
+                                      </i>Hire Me </button>
+                                   -->
 
                             </div>
 
@@ -334,22 +366,21 @@ In addition to programming, I enjoy watching sports and engaging in outdoor acti
     </section>
 
     <!--Resume-->
-
     <!-------- Smooth Scroll    -->
     <script src="/js/smooth-scroll.js">
 
     </script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
-    var startDate = new Date('May 29, 2018');
-    var endDate = new Date();
-    var yearDiff = endDate.getFullYear() - startDate.getFullYear();
-    var monthDiff = endDate.getMonth() - startDate.getMonth();
-    if (monthDiff < 0) {
-    yearDiff--;
-    monthDiff += 12;
-    }
-    document.getElementById("demo").innerHTML = yearDiff + " Years " + monthDiff + " months";
-</script>
+        var startDate = new Date('May 29, 2018');
+        var endDate = new Date();
+        var yearDiff = endDate.getFullYear() - startDate.getFullYear();
+        var monthDiff = endDate.getMonth() - startDate.getMonth();
+        if (monthDiff < 0) {
+            yearDiff--;
+            monthDiff += 12;
+        }
+        document.getElementById("demo").innerHTML = yearDiff + " Years " + monthDiff + " months";
+    </script>
 
 </body>
