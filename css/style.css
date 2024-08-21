@@ -273,6 +273,28 @@
     margin-bottom: 20px;
   }
   
+.podcast-intro {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .podcast-intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .podcast-intro  a {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .podcast-intro  a:hover {
+    background-color: #23527c;
+  }
+
   .blog-intro {
     text-align: center;
     margin-bottom: 30px;
@@ -407,6 +429,49 @@
     color: red;
 }
 
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    z-index: 1;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    transition: color 0.2s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:hover {
+    transform: translateX(10px);
+    transition: transform 0.2s ease;
+  }
+
+/* 
 .social-icons{
     top: 50px;
     transform: translateY(-50%);
@@ -436,6 +501,6 @@
     transition: 1s;
 }
 
-/* 
+
 
 */
